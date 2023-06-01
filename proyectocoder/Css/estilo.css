@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+
+.colorBarra{ background-color: goldenrod;
+   }
+  
+   .titulo{ color: black;
+    text-align: center;
+   font-family: fantasy;}
+   
+body{
+    background-image: url(/img/fondo\ de\ la\ pagina.png); background-position: center;
+
+}
+
+.contenedorgrid{
+    width: 90%;
+        display: grid;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+   grid-template-columns: 3fr 1fr;
+   grid-template-areas: 
+   "a b"
+  
+   
+   
+}
+
+.b{ border: solid black;
+    margin: 20px auto;
+height: 100%;
+}
+    .infoResaltada{ 
+        color: red;
+    text-decoration: underline;
+text-align: center;}
+
+.hoshidoTexto{color: azure;
+text-decoration: underline;
+ font-family: fantasy;}
